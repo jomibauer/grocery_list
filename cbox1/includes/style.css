@@ -1,0 +1,44 @@
+.form-box{
+	display: grid;
+	background: #93E9BE;
+	padding: 0px 20px 20px 20px;
+	width: 75%;
+	border: 5px solid #D1CECE;
+}
+
+.remove-item-form{
+	grid-column: 1;
+	grid-row: 1;
+	padding: 10px 10px;
+}
+
+.add-item-form{
+	display: block;
+	grid-column: 2;
+	grid-row: 1;
+	padding: 10px 10px;
+}
+
+.add-item-label{
+	background:#ffecbf;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+.div-spacer{
+	padding: 5px;
+}
+
+.to-purchase-list{
+	background: #ffecbf;
+	padding: 5px;
+}
+
+.just-bought-list{
+	grid-column: 3;
+	grid-row: 1;
+	background:#ffecbf;
+	border: 2px solid black;
+	padding: 10px 10px;
+	margin: 10px;
+}
